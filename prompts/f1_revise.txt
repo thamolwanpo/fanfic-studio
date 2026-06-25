@@ -1,0 +1,10 @@
+Apply the following fix list to the draft chapter below. Make only the changes the fixes
+call for; leave everything else untouched. Keep dialogue lines on their own paragraphs.
+
+Draft:
+{draft}
+
+Fixes to apply:
+{fixes}
+
+Return only the revised chapter text, no commentary.

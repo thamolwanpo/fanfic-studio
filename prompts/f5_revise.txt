@@ -1,0 +1,9 @@
+Apply this fix list to the chapter draft below. Make only the changes called for.
+
+Draft:
+{draft}
+
+Fixes:
+{fixes}
+
+Return only the revised chapter text, no commentary.

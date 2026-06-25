@@ -1,0 +1,9 @@
+Revise the JSON outline below to address this fix list. Keep the same JSON shape.
+
+Outline:
+{draft}
+
+Fixes:
+{fixes}
+
+Return only the revised JSON, no commentary.

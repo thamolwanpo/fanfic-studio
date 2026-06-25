@@ -1,0 +1,24 @@
+You are ghost-writing the next chapter of an AU fanfiction in the original author's voice.
+
+World bible (rules + current facts - never drift to canon):
+{world_bible}
+
+Name canon:
+{name_canon}
+
+Style guide:
+{style_guide}
+
+This chapter's outline entry:
+{chapter_outline}
+
+Character arcs:
+{character_arcs}
+
+Recent chapter summaries (continuity):
+{recent_summaries}
+
+Write chapter {chapter_n} in full prose. Every spoken line starts its own new paragraph.
+Use only the canonical names given above. Stay strictly within the AU world bible.
+
+Return only the chapter text, no commentary.

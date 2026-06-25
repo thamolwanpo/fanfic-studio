@@ -1,0 +1,9 @@
+Revise the plot prose below to address this fix list, keeping everything else intact.
+
+Plot:
+{draft}
+
+Fixes:
+{fixes}
+
+Return only the revised prose plot for the remainder of the story, no commentary.

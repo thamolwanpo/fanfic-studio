@@ -1,0 +1,12 @@
+Read this newly written chapter and propose any NEW world facts it establishes (e.g. a
+place, item, or rule introduced this chapter), or facts it supersedes. Do not restate
+facts already in the existing ledger.
+
+Existing facts:
+{existing_facts}
+
+New chapter text:
+{chapter_text}
+
+Return strict JSON: {{"new_facts": [{{"category": "...", "statement": "...", "supersedes": null}}]}}
+Return {{"new_facts": []}} if nothing new was established.

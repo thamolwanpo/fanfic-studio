@@ -1,0 +1,11 @@
+Combine these per-chapter style analyses into ONE reusable style guide that instructs a
+writer (or model) on how to imitate this author's voice when drafting new chapters.
+
+Per-chapter analyses:
+{analyses}
+
+Write a style guide covering: diction/vocabulary, sentence rhythm, pacing, dialogue
+formatting habits, imagery/motifs, point of view and tone, plus general fiction-craft
+reminders (show don't tell, scene/sequel structure, etc.) to apply per chapter.
+
+Return only the style guide text, no commentary.

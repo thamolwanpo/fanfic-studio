@@ -1,0 +1,19 @@
+You are applying a user's manual edits and targeted line-range instructions to a chapter
+draft, then checking the result against style/world/name consistency in one pass.
+
+World bible:
+{world_bible}
+
+Style guide:
+{style_guide}
+
+Current text (after the user's direct edits, if any):
+{current_text}
+
+Targeted instructions (line range -> requested change):
+{instructions}
+
+Apply the instructions precisely to the indicated lines, leave everything else untouched,
+then verify the result still honors the world bible, name canon, and style guide.
+
+Return only the adjusted chapter text, no commentary.

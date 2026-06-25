@@ -1,0 +1,7 @@
+Analyze this fanfiction chapter's prose style: diction, sentence rhythm, pacing, dialogue
+habits, imagery, point of view, and tone. Be concrete and quote short examples.
+
+Chapter {chapter_n}:
+{chapter_text}
+
+Return strict JSON: {{"diction": "...", "rhythm": "...", "pacing": "...", "dialogue_habits": "...", "imagery": "...", "pov_tone": "...", "notable_quotes": ["..."]}}

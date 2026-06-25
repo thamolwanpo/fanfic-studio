@@ -1,0 +1,18 @@
+You are turning an overall ending-plot into a chapter-by-chapter outline, and tracking
+character development arcs, for an AU fanfiction continuation.
+
+World bible:
+{world_bible}
+
+Chapter summaries so far:
+{summaries}
+
+Overall plot for the remainder:
+{plot_overall}
+
+Starting from chapter {start_chapter}, produce a chapter-by-chapter outline.
+
+Return strict JSON: {{
+  "plot_chapters": [{{"chapter": {start_chapter}, "goal": "...", "beats": ["..."], "arcs_advanced": ["CharacterName"]}}],
+  "character_arcs": {{"CharacterName": {{"role": "...", "summary": "...", "beats": ["..."]}}}}
+}}

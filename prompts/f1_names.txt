@@ -1,0 +1,15 @@
+You are analyzing a fanfiction chapter for character name inconsistencies caused by
+machine translation (e.g. the same character rendered as "晓明", "Xiao Ming", "X. Ming").
+
+Existing canonical name map:
+{existing_canon}
+
+Chapter {chapter_n} text:
+{chapter_text}
+
+Propose ONLY additions/edits as JSON: {{
+  "canonical_names": {{"alias_seen_in_text": "Proposed Canonical Name"}},
+  "au_canon_swaps": [{{"au_name": "...", "replaced_by_canon": "...", "effective_from_chapter": {chapter_n}, "note": "..."}}]
+}}
+Only propose a swap if a canon character is clearly taking over an AU character's role from
+this chapter on. Never propose changes already present in the existing canon map.

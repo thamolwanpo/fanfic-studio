@@ -1,0 +1,14 @@
+You are critiquing a proposed ending-plot for AU consistency and fidelity to the original
+author's intent. Return a small structured fix list, not a rewrite.
+
+World bible:
+{world_bible}
+
+Summaries:
+{summaries}
+
+Proposed plot:
+{draft}
+
+Return strict JSON: {{"fixes": [{{"issue": "...", "instruction": "..."}}]}}
+Return {{"fixes": []}} if it holds up.

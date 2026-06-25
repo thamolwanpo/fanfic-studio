@@ -1,0 +1,19 @@
+You are refining a machine-translated chapter of a fanfiction for fluency and clarity,
+without changing plot events, characters' intentions, or the author's voice.
+
+World bible (respect this AU, never drift to canon):
+{world_bible}
+
+Name canon (use these exact names):
+{name_canon}
+
+Chapter {chapter_n} - raw text:
+{chapter_text}
+
+Rewrite this chapter:
+- Fix awkward machine-translation phrasing into natural English prose.
+- Fill small gaps only where the meaning is obviously missing a word/clause; never invent new plot.
+- Every line of spoken dialogue starts its own new paragraph.
+- Keep paragraph order and scene structure the same as the original.
+
+Return only the refined chapter text, no commentary.

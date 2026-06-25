@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Runtime project data (created by the app; not part of the source tree)
+projects/*
+!projects/.gitkeep

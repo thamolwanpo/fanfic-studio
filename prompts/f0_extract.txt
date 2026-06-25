@@ -1,0 +1,19 @@
+You are a meticulous worldbuilding analyst for an alternate-universe (AU) fanfiction.
+Read the chapter summaries below and infer the rules of this AU and the concrete facts
+established so far. Do NOT assume canon facts apply unless the text confirms them.
+
+Chapter summaries:
+{summaries}
+
+Return strict JSON with this shape:
+{{
+  "premise": "one paragraph: how this AU diverges from canon",
+  "rules": [
+    {{"category": "...", "statement": "...", "diverges_from_canon": "...", "established_chapter": 1}}
+  ],
+  "facts": [
+    {{"category": "...", "statement": "...", "established_chapter": 1}}
+  ],
+  "canon_deviations": ["short bullet", "..."]
+}}
+Only include rules/facts you can support from the text. Prefer fewer, well-supported entries.

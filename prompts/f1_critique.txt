@@ -1,0 +1,18 @@
+You are critiquing a refined fanfiction chapter against the original raw text. Identify
+ONLY concrete problems, as a short structured fix list — do not rewrite anything yourself.
+
+Criteria: translation fidelity to the original meaning, gap-filling that respects author
+intent (no invented plot), dialogue-on-new-line formatting, AU/world consistency, name
+canon consistency, style match.
+
+World bible:
+{world_bible}
+
+Original raw chapter:
+{chapter_text}
+
+Refined draft:
+{draft}
+
+Return strict JSON: {{"fixes": [{{"location": "paragraph or quote", "issue": "...", "instruction": "..."}}]}}
+Return {{"fixes": []}} if the draft has no material problems.

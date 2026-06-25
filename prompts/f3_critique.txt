@@ -1,0 +1,11 @@
+Critique this chapter-by-chapter outline for pacing, AU consistency, and whether it
+actually advances toward the stated overall plot. Return a small fix list only.
+
+Overall plot:
+{plot_overall}
+
+Outline:
+{draft}
+
+Return strict JSON: {{"fixes": [{{"chapter": <n or null>, "issue": "...", "instruction": "..."}}]}}
+Return {{"fixes": []}} if it holds up.

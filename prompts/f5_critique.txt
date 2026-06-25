@@ -1,0 +1,17 @@
+Critique this newly drafted chapter against the outline, world bible, style guide, and
+name canon. Return a small structured fix list, not a rewrite.
+
+World bible:
+{world_bible}
+
+Outline entry:
+{chapter_outline}
+
+Style guide:
+{style_guide}
+
+Draft:
+{draft}
+
+Return strict JSON: {{"fixes": [{{"location": "paragraph or quote", "issue": "...", "instruction": "..."}}]}}
+Return {{"fixes": []}} if it holds up.
