@@ -23,11 +23,13 @@ def build_world_bible_tab(project_picker, model_picker, api_key_box):
         rules_table = gr.Dataframe(
             headers=["id", "category", "statement", "diverges_from_canon", "established_chapter", "locked"],
             datatype=["str", "str", "str", "str", "number", "bool"],
+            type="array",
             interactive=True, label="Rules (static foundation)",
         )
         facts_table = gr.Dataframe(
             headers=["id", "category", "statement", "established_chapter", "status"],
             datatype=["str", "str", "str", "number", "str"],
+            type="array",
             interactive=True, label="Facts ledger",
         )
         deviations_box = gr.Textbox(label="Canon deviations (one per line)", lines=4)

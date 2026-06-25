@@ -25,6 +25,7 @@ def build_project_tab():
         spine_table = gr.Dataframe(
             headers=["spine_index", "file_name", "title_guess", "preview", "likely_chapter"],
             datatype=["number", "str", "str", "str", "bool"],
+            type="array",
             interactive=True,
             label="Spine items — edit 'likely_chapter' to correct misclassified front/back matter",
         )

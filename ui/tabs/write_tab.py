@@ -21,7 +21,7 @@ def build_write_tab(project_picker, model_picker, api_key_box):
         editor_box = gr.Textbox(label="Chapter text (hand-edit directly here)", lines=20)
         instructions_table = gr.Dataframe(
             headers=["start_line", "end_line", "instruction"], datatype=["number", "number", "str"],
-            interactive=True, label="Targeted instructions",
+            type="array", interactive=True, label="Targeted instructions",
         )
         adjust_btn = gr.Button("Submit -> reflect adjustment")
         adjust_status = gr.Markdown()

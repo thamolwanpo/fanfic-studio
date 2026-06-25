@@ -21,7 +21,7 @@ def build_refine_tab(project_picker, model_picker, api_key_box):
 
         names_btn = gr.Button("Propose name fixes")
         names_table = gr.Dataframe(
-            headers=["alias", "canonical"], datatype=["str", "str"], interactive=True,
+            headers=["alias", "canonical"], datatype=["str", "str"], type="array", interactive=True,
             label="Proposed canonical name additions (edit/delete before confirming)",
         )
         confirm_names_btn = gr.Button("Confirm name additions")
